@@ -3,3 +3,27 @@
     justify-content: space-around;
     flex-direction: wrap; 
 }
+
+.three {
+    display: flex;
+    justify-content: center; 
+}
+.carta *{
+    margin-bottom: 30px;
+}
+.carta {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+
+}
+
+
+
+.barre{
+    display: flex; 
+   justify-content: space-evenly; 
+   align-items: center;
+   margin-bottom: 30px; 
+}

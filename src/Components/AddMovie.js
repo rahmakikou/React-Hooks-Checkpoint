@@ -16,8 +16,8 @@ const handleAdd=()=> setMovies([...movies,{title,description,posterURL,rating,id
     
     return (
         <div>
-<Button variant="primary" onClick={handleShow}>
-      + 
+<Button style={{fontSize:'35px'}} variant="primary" onClick={handleShow}>
+      Add New Entry 
       </Button>
 
       <Modal show={show} onHide={handleClose}>
@@ -43,8 +43,6 @@ const handleAdd=()=> setMovies([...movies,{title,description,posterURL,rating,id
         <br/> 
         <Rating onChange={(e)=>setRating(e.target.value)}/> 
       </Form.Group>
-
-      
     </Form>
         </Modal.Body>
         <Modal.Footer>
